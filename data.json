@@ -50,9 +50,9 @@
       "price": 285000,
       "battery": 98,
       "condition": "Pristine",
-      "image": "Images/iPhone-x-Series.png",
+      "image": "Images/iPhone-X-Series.png",
       "gallery": [
-        "Images/iPhone-x-Series.png"
+        "Images/iPhone-X-Series.png"
       ],
       "imageStyle": {
         "objectPosition": "50% 15%",
