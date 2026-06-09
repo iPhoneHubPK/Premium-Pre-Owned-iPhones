@@ -50,9 +50,9 @@
       "price": 285000,
       "battery": 98,
       "condition": "Pristine",
-      "image": "Images/iPhone-X-Series.png",
+      "image": "Images/iPhone-x-Series.png",
       "gallery": [
-        "Images/iPhone-X-Series.png"
+        "Images/iPhone-x-Series.png"
       ],
       "imageStyle": {
         "objectPosition": "50% 15%",
@@ -90,9 +90,9 @@
       "price": 218000,
       "battery": 93,
       "condition": "Excellent",
-      "image": "Images/iPhone-12-Series.png",
+      "image": "Images/iPhone-12-series.png",
       "gallery": [
-        "Images/iPhone-12-Series.png"
+        "Images/iPhone-12-series.png"
       ],
       "imageStyle": {
         "objectPosition": "50% 50%",
@@ -110,9 +110,9 @@
       "price": 172000,
       "battery": 91,
       "condition": "Great",
-      "image": "Images/iPhone-13-Series.png",
+      "image": "Images/iPhone-13-series.png",
       "gallery": [
-        "Images/iPhone-13-Series.png"
+        "Images/iPhone-13-series.png"
       ],
       "imageStyle": {
         "objectPosition": "50% 50%",
@@ -130,9 +130,9 @@
       "price": 148000,
       "battery": 87,
       "condition": "Great",
-      "image": "Images/iPhone-14-Series.png",
+      "image": "Images/iPhone-14-series.png",
       "gallery": [
-        "Images/iPhone-14-Series.png"
+        "Images/iPhone-14-series.png"
       ],
       "imageStyle": {
         "objectPosition": "50% 50%",
@@ -150,9 +150,9 @@
       "price": 95000,
       "battery": 84,
       "condition": "Good",
-      "image": "Images/iPhone-15-Series.png",
+      "image": "Images/iPhone-15-series.png",
       "gallery": [
-        "Images/iPhone-15-Series.png"
+        "Images/iPhone-15-series.png"
       ],
       "imageStyle": {
         "objectPosition": "50% 50%",
@@ -170,9 +170,9 @@
       "price": 284996,
       "battery": 0,
       "condition": "Pristine",
-      "image": "Images/iPhone-16-Series.png",
+      "image": "Images/iPhone-16-series.png",
       "gallery": [
-        "Images/iPhone-16-Series.png"
+        "Images/iPhone-16-series.png"
       ],
       "imageStyle": {
         "objectPosition": "50% 50%",
