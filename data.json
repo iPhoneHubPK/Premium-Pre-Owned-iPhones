@@ -1,0 +1,295 @@
+{
+  "site": {
+    "brandName": "",
+    "logoImage": "Images/logo-nav.png",
+    "logoImageFooter": "Images/logo-footer.png",
+    "whatsappNumber": "923357857075",
+    "tagline": "Premium Pre-Owned iPhones",
+    "heroSubtitle": "PTA Approved · Battery Tested · Nationwide Delivery. Experience the Apple standard at genuine value — no clones, no compromise.",
+    "city": "Bahawalpur, Pakistan",
+    "warrantyDays": 7,
+    "inspectionPoints": 40
+  },
+  "contact": {
+    "whatsapp": "923357857075",
+    "whatsappDisplay": "+92 (335) 7857075",
+    "email": "muazipoint@gmail.com",
+    "facebook": "https://facebook.com/muazipoint",
+    "instagram": "https://instagram.com/muazipoint.pk",
+    "city": "Bahawalpur, Punjab, Pakistan",
+    "hours": "Mon – Sat · 10:00 AM – 9:00 PM"
+  },
+  "trustBar": [
+    {
+      "icon": "verified_user",
+      "label": "100% Genuine"
+    },
+    {
+      "icon": "gpp_good",
+      "label": "PTA Approved"
+    },
+    {
+      "icon": "battery_charging_full",
+      "label": "Battery Verified"
+    },
+    {
+      "icon": "local_shipping",
+      "label": "Nationwide Delivery"
+    },
+    {
+      "icon": "security",
+      "label": "7-Day Warranty"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "model": "iPhone X Series",
+      "storage": "256GB",
+      "color": "Natural Titanium",
+      "price": 285000,
+      "battery": 98,
+      "condition": "Pristine",
+      "image": "Images/iPhone-x-Series.png",
+      "gallery": [
+        "Images/iPhone-x-Series.png"
+      ],
+      "imageStyle": {
+        "objectPosition": "50% 15%",
+        "scale": 1
+      },
+      "pta": true,
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "p2",
+      "model": "iPhone 11 series",
+      "storage": "128GB",
+      "color": "Black Titanium",
+      "price": 235000,
+      "battery": 96,
+      "condition": "Excellent",
+      "image": "Images/iPhone-11-Series.png",
+      "gallery": [
+        "Images/iPhone-11-Series.png"
+      ],
+      "imageStyle": {
+        "objectPosition": "50% 30%",
+        "scale": 1
+      },
+      "pta": true,
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "p3",
+      "model": "iPhone 12 Series",
+      "storage": "256GB",
+      "color": "Space Black",
+      "price": 218000,
+      "battery": 93,
+      "condition": "Excellent",
+      "image": "Images/iPhone-12-Series.png",
+      "gallery": [
+        "Images/iPhone-12-Series.png"
+      ],
+      "imageStyle": {
+        "objectPosition": "50% 50%",
+        "scale": 1
+      },
+      "pta": true,
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "p4",
+      "model": "iPhone 13 Series",
+      "storage": "128GB",
+      "color": "Deep Purple",
+      "price": 172000,
+      "battery": 91,
+      "condition": "Great",
+      "image": "Images/iPhone-13-Series.png",
+      "gallery": [
+        "Images/iPhone-13-Series.png"
+      ],
+      "imageStyle": {
+        "objectPosition": "50% 50%",
+        "scale": 1
+      },
+      "pta": false,
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "p5",
+      "model": "iPhone 14 Series",
+      "storage": "256GB",
+      "color": "Alpine Green",
+      "price": 148000,
+      "battery": 87,
+      "condition": "Great",
+      "image": "Images/iPhone-14-Series.png",
+      "gallery": [
+        "Images/iPhone-14-Series.png"
+      ],
+      "imageStyle": {
+        "objectPosition": "50% 50%",
+        "scale": 1
+      },
+      "pta": true,
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "p6",
+      "model": "iPhone 15",
+      "storage": "128GB",
+      "color": "Midnight",
+      "price": 95000,
+      "battery": 84,
+      "condition": "Good",
+      "image": "Images/iPhone-15-Series.png",
+      "gallery": [
+        "Images/iPhone-15-Series.png"
+      ],
+      "imageStyle": {
+        "objectPosition": "50% 50%",
+        "scale": 1
+      },
+      "pta": false,
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "p1780821630103",
+      "model": "iPhone 16 Series",
+      "storage": "256GB",
+      "color": "",
+      "price": 284996,
+      "battery": 0,
+      "condition": "Pristine",
+      "image": "Images/iPhone-16-Series.png",
+      "gallery": [
+        "Images/iPhone-16-Series.png"
+      ],
+      "imageStyle": {
+        "objectPosition": "50% 50%",
+        "scale": 1
+      },
+      "pta": true,
+      "featured": false,
+      "inStock": true
+    },
+    {
+      "id": "p1780821683929",
+      "model": "iPhone 17 Series",
+      "storage": "256GB",
+      "color": "",
+      "price": 999995,
+      "battery": 0,
+      "condition": "Excellent",
+      "image": "Images/17-v2.png",
+      "gallery": [
+        "Images/17-v2.png"
+      ],
+      "imageMode": "transparent",
+      "imageStyle": {
+        "gradient": "grad-titanium"
+      },
+      "pta": true,
+      "featured": true,
+      "inStock": true
+    }
+  ],
+  "features": [
+    {
+      "id": "f1",
+      "icon": "search_check",
+      "title": "40-Point Inspection",
+      "description": "Every device undergoes rigorous hardware and software diagnostics — True Tone, Face ID, camera, sensors, and internals — all verified to Apple standard."
+    },
+    {
+      "id": "f2",
+      "icon": "battery_saver",
+      "title": "Transparent Battery Health",
+      "description": "We list the exact battery percentage from 3uTools firmware. No boosted batteries, no inflated numbers. Just the honest truth."
+    },
+    {
+      "id": "f3",
+      "icon": "verified",
+      "title": "7-Day Checking Warranty",
+      "description": "Shop with confidence. Our 7-day warranty covers any hardware fault not disclosed at the time of sale. Your trust is our business."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "initials": "AM",
+      "name": "Ali M.",
+      "city": "Lahore",
+      "time": "2 days ago",
+      "text": "Got my 14 Pro Max from here — condition was exactly as described, 93% battery health confirmed via 3uTools. Very professional dealing compared to local Hal market. Highly recommend.",
+      "isReply": false
+    },
+    {
+      "id": "r2",
+      "initials": "SK",
+      "name": "Sara K.",
+      "city": "Islamabad",
+      "time": "1 week ago",
+      "text": "Ordered the iPhone 15 Pro and delivery was fast and packaging was excellent. PTA approval was smooth. The phone is literally flawless. 10/10.",
+      "isReply": false
+    },
+    {
+      "id": "r3",
+      "initials": "IA",
+      "name": "iPhoneHub PK",
+      "city": "Bahawalpur",
+      "time": "1 week ago",
+      "text": "Thank you Sara! We're glad the 15 Pro met your expectations. Looking forward to serving you again 🙏",
+      "isReply": true
+    },
+    {
+      "id": "r4",
+      "initials": "UH",
+      "name": "Usman H.",
+      "city": "Karachi",
+      "time": "3 weeks ago",
+      "text": "Bought an iPhone 13 Pro Max for my sister. Excellent condition, feels brand new, price was very competitive versus market rate. Will definitely come back for more.",
+      "isReply": false
+    }
+  ],
+  "faq": [
+    {
+      "id": "faq1",
+      "question": "Are your iPhones PTA approved?",
+      "answer": "Most of our inventory is PTA approved. Each product listing clearly states PTA status. Non-PTA devices are sold at a discounted rate and always clearly labeled — we never hide this."
+    },
+    {
+      "id": "faq2",
+      "question": "How do you verify battery health?",
+      "answer": "We use 3uTools to extract the true battery health percentage directly from the device firmware — this cannot be manipulated. What we list is exactly what your phone shows in Settings."
+    },
+    {
+      "id": "faq3",
+      "question": "Do you deliver across Pakistan?",
+      "answer": "Yes! We ship nationwide via TCS and Leopards Courier. Delivery takes 2–3 business days. Karachi customers may also collect in person — contact us on WhatsApp to arrange."
+    },
+    {
+      "id": "faq4",
+      "question": "What does the 7-day warranty cover?",
+      "answer": "Our warranty covers any hardware malfunction not disclosed at the time of sale. It does not cover physical damage caused after purchase. We document the device condition with photos before shipping."
+    },
+    {
+      "id": "faq5",
+      "question": "Can I verify the IMEI before buying?",
+      "answer": "Absolutely. We provide the IMEI on request before any payment. You can check it independently on checkmend.com or Apple's official coverage page."
+    }
+  ],
+  "footer": {
+    "tagline": "Elevating the standard of pre-owned technology in Pakistan. Genuine devices, honest pricing, professional service.",
+    "copyright": "© 2026 iPhoneHubPK · Bahawalpur, PAKISTAN · ALL RIGHTS RESERVED"
+  }
+}
