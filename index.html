@@ -16,7 +16,7 @@
       content="Genuine iPhones, PTA approved, battery health verified. Nationwide delivery across Pakistan."
     />
     <meta property="og:type" content="website" />
-    <title>iPhoneHubPK – Premium Pre-Owned iPhones</title>
+    <title>IPHONE ATELIER – Premium Pre-Owned iPhones</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
       rel="stylesheet"
@@ -47,6 +47,8 @@
       }
       html {
         scroll-behavior: smooth;
+        overflow-x: hidden;
+        max-width: 100%;
       }
       body {
         background: var(--bg);
@@ -54,6 +56,7 @@
         font-family: "Sora", sans-serif;
         font-size: 14px;
         overflow-x: hidden;
+        max-width: 100%;
         line-height: 1.6;
       }
       ::selection {
@@ -128,7 +131,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
+        width: 100%;
         z-index: 100;
         height: 64px;
         display: flex;
@@ -227,7 +230,7 @@
         position: fixed;
         top: 56px;
         left: 0;
-        right: 0;
+        width: 100%;
         z-index: 99;
         background: rgba(8, 8, 8, 0.98);
         border-bottom: 1px solid var(--border);
@@ -539,6 +542,7 @@
       /* ── CAROUSEL ── */
       #models {
         padding: 64px 0 0;
+        overflow: hidden;
       }
       .carousel-head {
         padding: 0 5%;
@@ -548,7 +552,7 @@
       #carousel-track-wrap {
         position: relative;
         width: 100%;
-        overflow: visible;
+        overflow: hidden;
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -912,7 +916,10 @@
       /* ── PRODUCT DETAIL MODAL ── */
       #detail-overlay {
         position: fixed;
-        inset: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         background: rgba(0, 0, 0, 0.84);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -922,6 +929,7 @@
         justify-content: center;
         padding: 20px;
         overflow-y: auto;
+        overflow-x: hidden;
       }
       #detail-overlay.open {
         display: flex;
@@ -2409,16 +2417,22 @@
         const out = Object.assign({}, def);
         for (const k of Object.keys(over)) {
           if (Array.isArray(over[k]) && over[k].length > 0) out[k] = over[k];
-          else if (over[k] && typeof over[k] === "object" && !Array.isArray(over[k])) {
+          else if (
+            over[k] &&
+            typeof over[k] === "object" &&
+            !Array.isArray(over[k])
+          ) {
             const defSub = def[k] || {};
             const merged = Object.assign({}, defSub);
             for (const sk of Object.keys(over[k])) {
-              if (over[k][sk] != null && (over[k][sk] !== "" || ALLOW_EMPTY.has(sk)))
+              if (
+                over[k][sk] != null &&
+                (over[k][sk] !== "" || ALLOW_EMPTY.has(sk))
+              )
                 merged[sk] = over[k][sk];
             }
             out[k] = merged;
-          }
-          else if (over[k] != null && over[k] !== "") out[k] = over[k];
+          } else if (over[k] != null && over[k] !== "") out[k] = over[k];
         }
         return out;
       }
